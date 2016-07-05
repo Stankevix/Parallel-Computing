@@ -1,0 +1,25 @@
+// Para compilar
+
+	make
+
+// Para executar
+
+// Serial
+	
+	./substring < [entrada]
+
+// Por exemplo:
+	
+	./substring < substring2.in
+	./substring < substring2.in
+	./substring < substring4.in
+	
+// Paralelo
+	
+	./substring [num_threads] < [entrada]
+
+// Por exemplo:
+	
+	./substring 2 < substring2.in
+	./substring 8 < substring2.in
+	./substring 12 < substring4.in

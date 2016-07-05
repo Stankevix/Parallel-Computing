@@ -1,0 +1,12 @@
+// Para compilar
+
+make
+
+// Para executar
+
+mpiexec -n <number of processes> <executable>
+
+// Por exemplo:
+mpiexec -n 2 ./mpi_primes
+mpiexec -n 3 ./mpi_primes
+mpiexec -n 4 ./mpi_primes
